@@ -10,7 +10,7 @@ function getInfo() {
 
 	for (i = 1; i <= 12; i++) {
 
-		let url = 'http://swapi.co/api/people/' + i;
+		let url = 'https://swapi.co/api/people/' + i;
 		let tile = document.createElement("a");
 
 		$.getJSON(url, function(data){
