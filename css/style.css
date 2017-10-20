@@ -80,7 +80,13 @@ h3 {
 	left: 15%;
 	top: 15%;
 	vertical-align: center;
+}
 
+#starWarsGallery {
+	margin: 10px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
 }
 
 @media (min-width: 400px) {

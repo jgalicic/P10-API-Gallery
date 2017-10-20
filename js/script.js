@@ -6,6 +6,12 @@ lightbox.option({
       	'maxHeight': 500,
     	});
 
+var starWarsGallery = document.getElementById("starWarsGallery");
+
+
+
+
+
 function getInfo() {
 
 	for (i = 1; i <= 12; i++) {
@@ -31,7 +37,7 @@ function getInfo() {
 		tile.setAttribute("data-lightbox", "group");
 
 		tile.setAttribute("class", "info-container");
-		document.body.appendChild(tile);
+		starWarsGallery.appendChild(tile);
 
 	}
 }
